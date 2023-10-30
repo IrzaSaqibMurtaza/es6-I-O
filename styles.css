@@ -1,0 +1,40 @@
+body{
+    background-image: url('./img/road.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div
+{
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+border: 1px solid rgba(255, 255, 255, 1);
+padding: 100px 100px;
+margin-top: 150px;
+
+
+}
+h1{
+    color:rgb(120, 171, 220);
+}
+button{
+    border-radius: 20px;
+    padding:10px 10px;
+    width:100px;
+    background-color:rgb(168, 252, 58);
+}
+input{
+    border-radius: 20px;
+    padding:10px 10px;
+    width:200px;
+    background: transparent;
+}
+strong{
+    color:white;
+}
